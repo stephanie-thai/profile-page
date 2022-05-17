@@ -18,7 +18,7 @@ import gitHubLogo from './assets/GitHub-Mark-Light-32px.png';
 function App() {
   let location = useLocation();
   const [projectsActive, setProjectsActive] = React.useState(false);
-  const [aboutActive, setAboutActive] = React.useState(false);
+  const [aboutActive, setAboutActive] = React.useState(true);
 
   React.useEffect(() => {
     const pathname = location.pathname;
@@ -49,7 +49,7 @@ function App() {
       </nav>
       <div className={allStyles.page}>
         <Routes>
-          <Route path='' element={<AboutScreen />} />
+          <Route path='/profile-page' element={<AboutScreen />} />
           <Route path='/projects' element={<ProjectsScreen />} />
           <Route path='/about' element={<AboutScreen />} />
         </Routes>
