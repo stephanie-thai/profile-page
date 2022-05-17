@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..700');
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0 50px;
+}
+
+h1 {
+  color: #212121;
+  font-weight: 500;
+  font-size: 1.7em;
+}
+
+h2 {
+  font-weight: 500;
+  padding-top: 20px;
+}
+
+#navBar {
+  background-color: white;
+  border-bottom: 1px solid #bdbdbd;
+  box-shadow: 0px 0px 2px #bdbdbd;
+  display: flex;
+  justify-content: center;
+}
+
+.navBarContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+  max-width: 1000px;
+}
+
+.navLinksContainer {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.navLink {
+  color: #686868;
+  text-decoration: none;
+}
+
+.selectedNavLink {
+  color: #1565c0;
+  text-decoration: none;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: #686868;
+  font-size: 0.9em;
+  height: 50px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.footerLink {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: rgb(241, 241, 241);
+}
