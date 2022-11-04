@@ -6,11 +6,10 @@ html, body {
   font-family: 'Open Sans', sans-serif;
 }
 
-.page {
+.app {
+  height: 100vh;
   display: flex;
   flex-direction: column;
-  height: 100vh;
-  margin: 0 50px;
 }
 
 h1 {
@@ -56,12 +55,18 @@ h2 {
   text-decoration: none;
 }
 
+.main {
+  margin: 0 50px;
+  flex-grow: 1;
+  overflow: auto;
+}
+
 footer {
   display: flex;
   justify-content: center;
   background-color: #686868;
   font-size: 0.9em;
-  height: 50px;
+  min-height: 50px;
 }
 
 a {

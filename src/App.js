@@ -37,7 +37,7 @@ function App() {
   }, [location]);
 
   return (
-    <div className={allStyles}>
+    <div className={allStyles.app}>
       <nav id={allStyles["navBar"]}>
         <div className={allStyles.navBarContainer}>
           <h1>Stephanie Thai</h1>
@@ -47,7 +47,7 @@ function App() {
           </div>
         </div>
       </nav>
-      <div className={allStyles.page}>
+      <div className={allStyles.main}>
         <Routes>
           <Route path='/profile-page' element={<AboutScreen />} />
           <Route path='/projects' element={<ProjectsScreen />} />

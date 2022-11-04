@@ -8,12 +8,12 @@ function About () {
   return (
     <section className={pageStyles.content}>
       <h2>About</h2>
-      <p>Hi! I’m Stephanie, a Computer Science student in my final year at The University of New South Wales.</p>
-      <p>I’ve always been attracted to technology and designing things which is why I’m interested in frontend development.</p>
-      <p>Some of my hobbies include drawing/painting, cooking, sewing and analog photography. I like creating things as a form of self-expression to balance the logical nature of coding.</p>
-      <p>Some of my skills include:</p>
+      <p>Hi! I’m Stephanie, a Computer Science graduate from The University of New South Wales.</p>
+      <p>I’ve always been interested in technology since a young age which is why I enjoy coding.</p>
+      <p>Some of my hobbies include drawing, cooking, and analog photography. I like creating things in my spare time to balance the logical nature of coding.</p>
+      <p>Skills:</p>
       <ul>
-        <li><b>Languages:</b> C, Python, Java, C++, web development (HTML/CSS/JavaScript/React), scripting languages (Shell, Perl)</li>
+        <li><b>Languages:</b> C, Python, Java, web development (HTML/CSS/JavaScript/React)</li>
         <li><b>Tools:</b> Git, database systems (PostgreSQL, SQLite)</li>
       </ul>
       <br />
